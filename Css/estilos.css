@@ -9,17 +9,70 @@
 header{
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 120px;
   background-color: #de3535;
+  min-width: ;
   align-items: center;
   padding: 10px;
 }
+
 
 .Headerrr{
   display: flex;
   align-items: center;
 }
 
+.nombreHeader {
+font-family:'Roboto', sans-serif;
+font-weight: bold;
+
+}
+
+nav {
+   height: 8vh;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  
+  }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a{
+  display: inline-block;
+  padding: 3px;
+  background-color: white;
+  width: 200px;
+  height: 6vh;
+  color: black;
+  transition: 0.2s all;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  font-family:'Roboto', sans-serif;
+  font-size: 20px;
+  
+    
+  
+}
+  
+nav ul li a:hover {
+  background-color: yellow;
+  border-radius: 5px;
+
+  }
+
+  a {
+text-decoration: none;
+  }
 /*------------------------------------------------------*/
 
 .imagenes{
@@ -52,4 +105,51 @@ header{
 
 h3{
     letter-spacing: 2px;
+}
+
+form {
+  background-color: #de3535;
+}
+form label {
+  display: block;
+  margin: 10px;
+
+}
+
+h1 p {
+  height: 20vh;
+  font color: black;
+}
+
+h4 {
+padding: 20px;
+font-family:'Roboto', sans-serif; 
+font size: 20px;
+}
+
+label{
+  padding: 7px
+  
+}
+
+input{
+  margin-left: 10px;
+}
+
+iframe {
+  padding: 20px
+}
+
+
+footer {
+background-color: black;
+height: 20vh;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
